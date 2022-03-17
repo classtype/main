@@ -1,0 +1,7 @@
+{
+    "private": true,
+    "dependencies": {
+        "app.exec": "1.0.4",
+        "app.init": "1.0.22"
+    }
+}
