@@ -1,7 +1,9 @@
 {
     "private": true,
     "dependencies": {
-        "app.exec": "1.0.4",
-        "app.init": "1.0.22"
+        "app.file": "1.0.6",
+        "app.init": "classtype/app.init",
+        "ejs": "3.1.6",
+        "express": "4.17.3"
     }
 }

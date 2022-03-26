@@ -1,0 +1,68 @@
+<!doctype html>
+<!--
+* Tabler - Premium and Open Source dashboard template with responsive and high quality UI.
+* @version 1.0.0-beta9
+* @link https://tabler.io
+* Copyright 2018-2022 The Tabler Authors
+* Copyright 2018-2022 codecalm.net Paweł Kuna
+* Licensed under MIT (https://github.com/tabler/tabler/blob/master/LICENSE)
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Dashboard - Tabler - Premium and Open Source dashboard template with responsive and high quality UI.</title>
+    <!-- CSS files -->
+    <link href="./dist/css/tabler.min.css" rel="stylesheet"/>
+    <link href="./dist/css/tabler-flags.min.css" rel="stylesheet"/>
+    <link href="./dist/css/tabler-payments.min.css" rel="stylesheet"/>
+    <link href="./dist/css/tabler-vendors.min.css" rel="stylesheet"/>
+    <link href="./dist/css/demo.min.css" rel="stylesheet"/>
+<style>
+.test1 {--tblr-theme-boxed-width:500px; --tblr-theme-boxed-border-radius:0; padding:0;}
+.test2 {font-family:Tahoma; padding-left:0; padding-right1:10px;}
+</style>
+  </head>
+  <body class="layout-boxed test1">
+    <div class="page">
+      <header class="navbar-expand-md">
+        <div class="collapse navbar-collapse" id="navbar-menu">
+          <div class="navbar navbar-light">
+            <div class="container-xl test2">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="/">
+                    <span class="nav-link-icon d-md-none d-lg-inline-block"><!-- Download SVG icon from http://tabler-icons.io/i/home -->
+                      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-docker" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M22 12.54c-1.804 -.345 -2.701 -1.08 -3.523 -2.94c-.487 .696 -1.102 1.568 -.92 2.4c.028 .238 -.32 1.002 -.557 1h-14c0 5.208 3.164 7 6.196 7c4.124 .022 7.828 -1.376 9.854 -5c1.146 -.101 2.296 -1.505 2.95 -2.46z"></path>
+                        <path d="M5 10h3v3h-3z"></path>
+                        <path d="M8 10h3v3h-3z"></path>
+                        <path d="M11 10h3v3h-3z"></path>
+                        <path d="M8 7h3v3h-3z"></path>
+                        <path d="M11 7h3v3h-3z"></path>
+                        <path d="M11 4h3v3h-3z"></path>
+                        <path d="M4.571 18c1.5 0 2.047 -.074 2.958 -.78"></path>
+                        <line x1="10" y1="16" x2="10" y2="16.01"></line>
+                      </svg>
+                    </span>
+                    <span class="nav-link-title">Проекты</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="page-wrapper">
+        <% if (page) { %>
+          <%- include(page); %>
+        <% } %>
+      </div>
+    </div>
+    <!-- Tabler Core -->
+    <script src="./dist/js/tabler.min.js"></script>
+    <script src="./dist/js/demo.min.js"></script>
+  </body>
+</html>
